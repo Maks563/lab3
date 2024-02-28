@@ -1,0 +1,100 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+  }
+
+ul,
+ol,
+dl,
+p {
+  font-size: 1.5rem;
+}
+
+.ul-nav,
+.ol-nav,
+.li-nav,
+.dl-nav {
+  margin-top: 20px;
+}
+
+.li-nav,
+.dl-nav {
+  padding: 0 25px;
+}
+
+li,
+p {
+  line-height: 1.5;
+}
+
+.first-img {
+    height: 40rem;
+    width: 80rem;
+}
+
+.nav-list {
+    border: solid 1px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
